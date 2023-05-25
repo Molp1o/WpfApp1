@@ -70,5 +70,10 @@ namespace WpfApp1
             stb.Children.Add(ca);
             stb.Begin();
         }
+
+        private void close_btn_Close(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }
